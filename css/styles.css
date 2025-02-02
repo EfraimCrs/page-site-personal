@@ -4151,6 +4151,7 @@ textarea.form-control-lg {
 .card {
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
+  --bs-card-spacer-z: 1rem;
   --bs-card-title-spacer-y: 0.5rem;
   --bs-card-border-width: 1px;
   --bs-card-border-color: var(--bs-border-color-translucent);
@@ -4166,6 +4167,7 @@ textarea.form-control-lg {
   --bs-card-bg: #fff;
   --bs-card-img-overlay-padding: 1rem;
   --bs-card-group-margin: 0.75rem;
+  margin-bottom: 50px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -4202,7 +4204,7 @@ textarea.form-control-lg {
 
 .card-body {
   flex: 1 1 auto;
-  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x) var(--bs-card-spacer-z);
   color: var(--bs-card-color);
 }
 
